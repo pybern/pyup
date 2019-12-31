@@ -18,6 +18,9 @@ To test installation, locate your Anaconda Prompt, in Windows 7 and up, you can 
 A virtual enviroment is useful to manage your packages and Python versions for future deployment, Anaconda comes with its own and straight forward vistual enviroment which is easy to use, you can read more about [managing enviroments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 For example, we can create a virtual enviroment with the following command
-`conda create --name mytest python=3.7 pip`
+
+```
+conda create --name mytest python=3.7 pip
+```
 
 `conda` invokes the Anaconda program and the `create --name` command creates an enviroment followed by the name `my test`, Python version `python=3.7` and installs the package `pip`.
